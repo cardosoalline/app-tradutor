@@ -1,0 +1,28 @@
+#derrota {
+  color: rgb(252, 252, 252);
+  background-color: rgb(204, 83, 83);
+  margin-top: 150px;
+  width: 16%;
+  border-radius: 5px;
+  border: 4px solid rgb(86, 88, 241);
+}
+
+#vitoria {
+  color: rgb(252, 252, 252);
+  background-color: rgb(86, 88, 241);
+  margin-top: 150px;
+  width: 16%;
+  border-radius: 5px;
+  border: 4px solid rgb(204, 83, 83);
+}
+
+#voltarJogar {
+  margin: auto;
+  display: block;
+}
+
+#voltarJogarVenceu {
+  background-color: rgb(204, 83, 83);
+  margin: auto;
+  display: block;
+}

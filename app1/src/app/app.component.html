@@ -1,0 +1,45 @@
+<app-topo></app-topo>
+
+<div *ngIf="jogoEmAndamento; else fimDeJogo">
+  <app-painel (encerrarJogo)="encerrarJogo($event)"></app-painel>
+</div>
+
+<!-- <div app-topo></div> em projetos legados pode aparecer o seletor do app assim-->
+
+<ng-template #fimDeJogo>
+  <div
+    *ngIf="tipoEncerramento === 'derrota'; else fimDeJogoVitoria"
+    class="container"
+    id="derrota"
+  >
+    <div class="row">
+      <div class="col">
+        <h3>Fim de Jogo! Você perdeu!</h3>
+        <button
+          id="voltarJogar"
+          class="btn btn-primary"
+          (click)="reiniciarJogo()"
+        >
+          Jogar Novamente
+        </button>
+      </div>
+    </div>
+  </div>
+</ng-template>
+
+<ng-template #fimDeJogoVitoria>
+  <div class="container" id="vitoria">
+    <div class="row">
+      <div class="col">
+        <h3>Fim de Jogo! Você Venceu!</h3>
+        <button
+          class="btn btn-primary"
+          id="voltarJogarVenceu"
+          (click)="reiniciarJogo()"
+        >
+          Jogar Novamente
+        </button>
+      </div>
+    </div>
+  </div>
+</ng-template>

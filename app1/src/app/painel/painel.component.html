@@ -1,0 +1,53 @@
+<div class="container">
+  <div class="jumbotron">
+    <div class="row">
+      <div class="col-sm-6">
+        <app-progresso [progresso]="progresso"></app-progresso>
+      </div>
+      <div class="col-sm-6">
+        <div class="d-flex justify-content-end">
+          <app-tentativas [tentativas]="tentativas"></app-tentativas>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col">
+        <h6>{{ instrucao }}</h6>
+        <p id="frase">{{ rodadaFrase.fraseEng }}</p>
+
+        <!-- <p>{{ resposta }}</p> string interpolation -->
+
+        <div class="form-group">
+          <!-- //$event captura o elemento do DOM em forma de objeto e encaminha para o método
+          // e a partir dele pode acessar todos os atributos do html no momento que o evento aconteceu -->
+          <textarea
+            class="form-control"
+            rows="3"
+            (input)="atualizaResposta($event)"
+            [value]="resposta"
+            placeholder="Digite aqui a tradução da frase acima descrita"
+            ng-submit="chat.verificarResposta()"
+          >
+          >
+          </textarea>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col">
+        <div class="d-flex justify-content-end">
+          <button
+            type="submit"
+            class="btn btn-primary"
+            id="verificar"
+            (click)="verificarResposta()"
+          >
+            Verificar
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
