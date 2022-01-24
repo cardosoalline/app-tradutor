@@ -23,7 +23,7 @@ Para testar:
 
 - [x] Clone este repositório
 - [x] Acesse a pasta app1 direto da sua IDE.
-- [x] No terimal rode o npm install -g @angular/cli para instalar as dependências do node modules.
+- [x] No terimal rode o npm install -g @angular/cli para instalar as dependências.
 
 <h5 align="center"> 
 	🚧  Ainda em evolução...  🚧
