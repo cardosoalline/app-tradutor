@@ -30,6 +30,8 @@ Para testar:
 - [x] Clone este repositório
 - [x] Acesse a pasta app1 direto da sua IDE.
 - [x] No terminal rode o npm install -g @angular/cli para instalar as dependências.
+- [x] No terminal rode o ng serve -o para abrir o projeto no browser.
+
 
 <h5 align="center"> 
 	🚧  Ainda em evolução...  🚧
