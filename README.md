@@ -6,6 +6,12 @@
  ### 🛠 Tecnologias
 
 - [Angular 12]
+- [JavaScript]
+- [TypeScript]
+- [CSS]
+- [HTML]
+
+
 
 
  ### 🛠 IDE
