@@ -36,3 +36,16 @@ Para testar:
 <h5 align="center"> 
 	🚧  Ainda em evolução...  🚧
 </h5>
+
+
+---
+### Autora
+---
+
+<h3>💙 Alline Cardoso 💙</h3></sub></a> 
+
+👩🏽‍💻 Sempre em busca de mais conhecimento e prática!
+
+[![Linkedin Badge](https://img.shields.io/badge/-AllineCardoso-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/alline-cardoso/)](https://www.linkedin.com/in/alline-cardoso/) 
+
+
